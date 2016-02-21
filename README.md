@@ -1,9 +1,16 @@
 # abt-ubuntu
 
-To install, clone this repository into /root/:
+### install
 
 `sudo bash; cd /root/; git clone https://github.com/gavinengel/abt-ubuntu.git;`
 
-To update your Ubuntu desktop, run this command:
+### to use
 
 `sudo /root/abt-ubuntu/update.sh;`
+
+
+### notes
+
+To update the `update.sh` command every few months:
+
+`sudo bash; cd /root/abt-ubuntu/; git pull;`
