@@ -6,4 +6,4 @@
 
 ### usage
 
-`sudo /root/abt-ubuntu/update.sh;`
+`sudo abt-ubuntu-update`
