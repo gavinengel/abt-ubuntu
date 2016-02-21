@@ -1,15 +1,15 @@
-# abt-ubuntu
+# ctc-ubuntu
 
 ## description
 
-This script maintains a Ubuntu GNOME rolling-release desktop, for use in Abt Associates.  Setting up a GNOME Ubuntu rolling-release, see [here](https://ubuntugnome.org/howto-run-ubuntu-gnome-as-a-rolling-release/).
+This script maintains a Ubuntu GNOME rolling-release desktop, for use in Abt Associates CTC department.  Setting up a GNOME Ubuntu rolling-release, see [here](https://ubuntugnome.org/howto-run-ubuntu-gnome-as-a-rolling-release/).
 
 ### install
 
-`sudo bash; cd /root/; git clone https://github.com/gavinengel/abt-ubuntu.git;`
+`sudo bash; cd /root/; git clone https://github.com/gavinengel/ctc-ubuntu.git;`
 
 ### usage
 
-`sudo abt-ubuntu-update`
+`sudo ctc-ubuntu-update`
 
 
