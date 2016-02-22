@@ -34,5 +34,5 @@ foreach ($manifest['apt-get'] as $cmd => $pkgs) {
  * run misc shell stuff
  */ 
 echo "Misc shell commands:\n";
-echo `{$path}misc.sh;`;
+echo `sudo {$path}misc.sh;`;
 echo "\n\n";
