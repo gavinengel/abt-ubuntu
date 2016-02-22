@@ -29,3 +29,10 @@ foreach ($manifest['apt-get'] as $cmd => $pkgs) {
   logger ($info);
 
 }
+
+/**
+ * run misc shell stuff
+ */ 
+echo "Misc shell commands:\n";
+echo `{$path}misc.sh;`;
+echo "\n\n";
