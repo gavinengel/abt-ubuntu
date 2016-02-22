@@ -1,0 +1,19 @@
+{
+  "apt-get": {
+    "install": [
+      "tasksel",
+      "npm",
+      "vim",
+      "rpl",
+      "locate",
+      "ruby",
+      "ruby-dev",
+      "ack-grep",
+      "ufw"
+    ],
+    "purge": [
+      "evolution",
+      "whoopsie"
+    ]
+  }
+}
