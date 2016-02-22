@@ -12,7 +12,8 @@
       "ufw",
       "curl",
       "php-curl",
-      "php-mcrypt"
+      "php-mcrypt",
+      "php-xsl"
     ],
     "purge": [
       "evolution",
