@@ -5,8 +5,6 @@
  * declarations
  */
 $path = dirname(__FILE__) . '/';
-$manifest = json_decode(file_get_contents ($path . "manifest.json"), true);
-require ($path . "functions.php");
 
 /**
  * update this git repository
@@ -14,6 +12,9 @@ require ($path . "functions.php");
 echo "Updating $path:\n";
 echo `cd $path && git pull && cd -;`;
 echo "\n\n";
+
+$manifest = json_decode(file_get_contents ($path . "manifest.json"), true);
+require ($path . "functions.php");
 
 /**
  * perform apt-get commands
