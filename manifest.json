@@ -9,7 +9,8 @@
       "ruby",
       "ruby-dev",
       "ack-grep",
-      "ufw"
+      "ufw",
+      "curl"
     ],
     "purge": [
       "evolution",
