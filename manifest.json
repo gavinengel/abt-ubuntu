@@ -11,7 +11,8 @@
       "ack-grep",
       "ufw",
       "curl",
-      "php-curl"
+      "php-curl",
+      "php-mcrypt"
     ],
     "purge": [
       "evolution",
