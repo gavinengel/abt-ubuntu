@@ -13,7 +13,8 @@
       "curl",
       "php-curl",
       "php-mcrypt",
-      "php-xsl"
+      "php-xsl",
+      "nano"
     ],
     "purge": [
       "evolution",
